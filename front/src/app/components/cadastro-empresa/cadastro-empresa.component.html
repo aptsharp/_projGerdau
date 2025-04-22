@@ -1,0 +1,28 @@
+<h2>🏢 Cadastro de Nova Empresa</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="formulario-empresa">
+  <label>CNPJ:</label><br />
+  <input formControlName="cnpj" /><br /><br />
+
+  <label>Nome Fantasia:</label><br />
+  <input formControlName="nomeFantasia" /><br /><br />
+
+  <!-- Campo do CEP -->
+  <label>CEP:</label><br />
+  <input formControlName="cep" /><br /><br />
+
+  <!-- Validador (sem input extra, sem botão) -->
+  <app-validador-cep
+    [cep]="form.get('cep')?.value"
+    (cepValido)="onCepValido($event)"
+  ></app-validador-cep>
+
+  <!-- Botões -->
+  <div class="botoes">
+    <button type="submit" [disabled]="form.invalid || !cepValido" class="salvar">
+      💾 Salvar
+    </button>
+
+    <button type="button" class="limpar" (click)="onLimpar()">Limpar</button>
+  </div>
+</form>

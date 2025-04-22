@@ -1,0 +1,12 @@
+<div class="boas-vindas">
+  <h2>👋 Bem-vindo, Administrador!</h2>
+  <!-- <p>Confira a previsão do tempo para hoje em <strong>{{ cidade }}</strong>:</p>
+
+  <div *ngIf="clima">
+    <p>🌡️ Temperatura atual: {{ clima.temp_C }}°C</p>
+    <p>🌥️ Condição: {{ clima.condicao }}</p>
+    <p>💧 Umidade: {{ clima.umidade }}%</p>
+  </div> -->
+
+  <p *ngIf="erro">❌ Erro ao buscar previsão do tempo.</p>
+</div>

@@ -1,0 +1,43 @@
+<app-cadastro-fornecedor></app-cadastro-fornecedor>
+
+<h2>📦 Lista de Fornecedores</h2>
+
+<input type="text" placeholder="🔎 Buscar por nome ou CPF/CNPJ" [(ngModel)]="filtro" />
+
+<ul *ngIf="fornecedoresFiltrados.length > 0; else vazio">
+  <li *ngFor="let f of fornecedores">
+    <div *ngIf="fornecedorEditando?._id !== f._id">
+      <strong>{{ f.nome }}</strong> ({{ f.tipoPessoa }})<br>
+      CPF/CNPJ: {{ f.cnpjCpf }}<br>
+      Email: {{ f.email }}<br>
+      CEP: {{ f.cep }}<br>
+
+      <button (click)="editar(f)">✏️ Editar</button>
+      <button (click)="deletar(f._id)">❌ Excluir</button>
+    </div>
+
+    <div *ngIf="fornecedorEditando?._id === f._id">
+      <h4>✏️ Editando Fornecedor</h4>
+
+      <form [formGroup]="form" (ngSubmit)="atualizar()">
+        Nome: <input formControlName="nome"><br>
+        Email: <input formControlName="email"><br>
+        CEP: <input formControlName="cep"><br>
+
+        <ng-container *ngIf="tipoPessoa === 'FISICA'">
+          RG: <input formControlName="rg"><br>
+          Data Nasc: <input formControlName="dataNascimento" type="date"><br>
+        </ng-container>
+
+        <button type="submit">💾 Salvar</button>
+        <button type="button" (click)="cancelarEdicao()">Cancelar</button>
+      </form>
+    </div>
+
+    <hr>
+  </li>
+</ul>
+
+<ng-template #vazio>
+  <p>❗ Nenhum fornecedor encontrado.</p>
+</ng-template>

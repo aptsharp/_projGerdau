@@ -1,0 +1,26 @@
+form {
+  margin-bottom: 20px;
+
+  button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &.btn-verde {
+      background-color: #28a745;
+      color: white;
+    }
+
+    &.btn-cinza {
+      background-color: #ccc;
+      color: #333;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<h2>🔗 Vincular Fornecedor a Empresa</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label>CNPJ da Empresa:</label><br>
+  <input formControlName="cnpjEmpresa" /><br><br>
+
+  <label>CPF/CNPJ do Fornecedor:</label><br>
+  <input formControlName="cnpjCpfFornecedor" /><br><br>
+
+  <button type="submit" [disabled]="form.invalid">Vincular</button>
+</form>
+
+<p *ngIf="mensagem">{{ mensagem }}</p>

@@ -1,0 +1,29 @@
+<h2>📦 Cadastro de Fornecedor</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label>CPF/CNPJ:</label><br />
+  <input formControlName="cnpjCpf" /><br /><br />
+
+  <label>Nome:</label><br />
+  <input formControlName="nome" /><br /><br />
+
+  <label>Email:</label><br />
+  <input formControlName="email" /><br /><br />
+
+  <label>CEP:</label><br />
+  <input formControlName="cep" (input)="validarCepEmTempoReal()" /><br /><br />
+
+  <app-validador-cep
+    [cep]="form.get('cep')?.value || ''"
+    (cepValido)="onCepValido($event)">
+  </app-validador-cep>
+
+  <button
+    type="submit"
+    [disabled]="form.invalid || !cepValido"
+    [ngClass]="{ 'btn-verde': cepValido, 'btn-cinza': !cepValido }">
+    💾 Salvar
+  </button>
+
+  <button type="button" (click)="limparFormulario()">🧹 Limpar</button>
+</form>

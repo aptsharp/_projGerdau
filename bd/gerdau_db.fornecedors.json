@@ -1,0 +1,839 @@
+[{
+  "_id": {
+    "$oid": "68003236b4c3c6fb7d72bd04"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "54321098767654",
+  "nome": "qualquer",
+  "email": "raffael@",
+  "cep": "4324234",
+  "rg": "874837",
+  "dataNascimento": {
+    "$date": "2025-04-15T00:00:00.000Z"
+  },
+  "empresas": [
+    {
+      "$oid": "6800063513f0175610b4c673"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-16T22:41:58.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-16T23:00:03.849Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68003d0ddf7078c34a407a73"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "543210987676548",
+  "nome": "qualquer",
+  "email": "a.com",
+  "cep": "4324234",
+  "rg": "87878",
+  "dataNascimento": {
+    "$date": "2025-04-15T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-16T23:28:13.407Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-16T23:28:13.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68003d23df7078c34a407a76"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "543210987676549",
+  "nome": "qualquer",
+  "email": "afonso.raffael@gmail.com",
+  "cep": "00000000",
+  "rg": "87878",
+  "dataNascimento": {
+    "$date": "2025-04-15T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-16T23:28:35.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-16T23:28:35.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680056aa2aa3ac9bbde874c8"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "34467988878",
+  "nome": "ggrgrr",
+  "email": "afonso.raffael@gmail.com",
+  "cep": "85515000",
+  "rg": "445674326",
+  "dataNascimento": {
+    "$date": "1997-04-15T00:00:00.000Z"
+  },
+  "empresas": [
+    {
+      "$oid": "68003b76253752ed02d7fc70"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T01:17:30.493Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T01:22:25.210Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "680057662aa3ac9bbde874ca"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000199",
+  "nome": "espaço",
+  "email": "afonso.raffael@gmail.com",
+  "cep": "85515000",
+  "rg": "",
+  "dataNascimento": {
+    "$date": "1996-04-09T00:00:00.000Z"
+  },
+  "empresas": [
+    {
+      "$oid": "6800047c13f0175610b4c66b"
+    },
+    {
+      "$oid": "6800055813f0175610b4c66f"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T01:20:38.444Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T01:21:53.735Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "680066bc4f574ee3684e0fb3"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000167",
+  "nome": "Fornecedor Teste LTDA",
+  "email": "teste@fornecedor.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:26:04.739Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:26:04.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680066dd3218183eb492d3f2"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000176",
+  "nome": "Fornecedor Teste LTDA",
+  "email": "teste@fornecedor.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:26:37.410Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:26:37.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a0e7e1d6c533aeeda6a"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000142",
+  "nome": "Fornecedor Teste LTDA",
+  "email": "teste@fornecedor.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:40:14.703Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:40:14.703Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a17dc0570c335fd4e60"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000161",
+  "nome": "Fornecedor Teste LTDA",
+  "email": "teste@fornecedor.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:40:23.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:40:23.767Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a4b98f948755b94962c"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000110",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:41:15.082Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:41:15.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a4b98f948755b94962e"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678944",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:41:15.244Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:41:15.244Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a4b98f948755b949630"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678900",
+  "nome": "Duplicado",
+  "email": "dup@teste.com",
+  "cep": "01310930",
+  "rg": "11223344",
+  "dataNascimento": {
+    "$date": "2000-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:41:15.398Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:41:15.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a718f9afbc44c1b17e8"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000134",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:41:53.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:41:53.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a718f9afbc44c1b17ea"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678957",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:41:53.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:41:53.771Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006a728f9afbc44c1b17f2"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678911",
+  "nome": "Menor de idade",
+  "email": "menor@teste.com",
+  "cep": "01310930",
+  "rg": "000111222",
+  "dataNascimento": {
+    "$date": "2010-01-01T00:00:00.000Z"
+  },
+  "empresas": [
+    null
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T02:41:54.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:41:54.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006b366d7cbe1ae4175faa"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000128",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:45:10.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:45:10.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006b366d7cbe1ae4175fac"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678995",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:45:10.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:45:10.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006bf769230b598e5f20df"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000173",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:48:23.119Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:48:23.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006bf769230b598e5f20e1"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678952",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:48:23.286Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:48:23.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006bf769230b598e5f20e9"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678925",
+  "nome": "Menor de idade",
+  "email": "menor@teste.com",
+  "cep": "01310930",
+  "rg": "000111222",
+  "dataNascimento": {
+    "$date": "2010-01-01T00:00:00.000Z"
+  },
+  "empresas": [
+    null
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T02:48:23.917Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:48:23.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006d97aac7a4d73bc4f4ca"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000153",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:55:19.455Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:55:19.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006d97aac7a4d73bc4f4cc"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678913",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:55:19.624Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:55:19.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006d98aac7a4d73bc4f4d4"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678941",
+  "nome": "Menor de idade",
+  "email": "menor@teste.com",
+  "cep": "01310930",
+  "rg": "000111222",
+  "dataNascimento": {
+    "$date": "2010-01-01T00:00:00.000Z"
+  },
+  "empresas": [
+    null
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T02:55:20.279Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:55:20.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006e6a975579730a0610fe"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000159",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:58:50.100Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:58:50.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006e6a975579730a061100"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678954",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T02:58:50.260Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:58:50.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006e6a975579730a061108"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678981",
+  "nome": "Menor de idade",
+  "email": "menor@teste.com",
+  "cep": "01310930",
+  "rg": "000111222",
+  "dataNascimento": {
+    "$date": "2010-01-01T00:00:00.000Z"
+  },
+  "empresas": [
+    null
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T02:58:50.877Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T02:58:50.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006ef0381f410ce0e3dc4a"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000194",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:01:04.721Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:01:04.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006ef0381f410ce0e3dc4c"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678953",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:01:04.914Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:01:04.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006ef1381f410ce0e3dc54"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678922",
+  "nome": "Menor de idade",
+  "email": "menor@teste.com",
+  "cep": "01310930",
+  "rg": "000111222",
+  "dataNascimento": {
+    "$date": "2010-01-01T00:00:00.000Z"
+  },
+  "empresas": [
+    null
+  ],
+  "createdAt": {
+    "$date": "2025-04-17T03:01:05.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:01:05.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006f9adae886907d6b7508"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000119",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:03:54.579Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:03:54.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006f9adae886907d6b750a"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678990",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:03:54.738Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:03:54.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006faf6e3842a39431ce40"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000155",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:04:15.858Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:04:15.858Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68006fb06e3842a39431ce42"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678956",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:04:16.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:04:16.027Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680075e0576abdae65afe433"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000178",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:30:40.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:30:40.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680075e0576abdae65afe435"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678961",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:30:40.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:30:40.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680078ae5fdc74bfe2b4168e"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000187",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:42:38.995Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:42:38.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680078af5fdc74bfe2b41690"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678988",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:42:39.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:42:39.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680078fe6049af8ba0afa56d"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "12345678000182",
+  "nome": "Fornecedor PJ",
+  "email": "pj@teste.com",
+  "cep": "01310930",
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:43:58.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:43:58.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680078fe6049af8ba0afa56f"
+  },
+  "tipoPessoa": "FISICA",
+  "cnpjCpf": "12345678946",
+  "nome": "Fornecedor PF",
+  "email": "pf@teste.com",
+  "cep": "01310930",
+  "rg": "123456789",
+  "dataNascimento": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T03:43:58.447Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T03:43:58.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6800b2647b3be5c97e72c883"
+  },
+  "tipoPessoa": "JURIDICA",
+  "cnpjCpf": "04049976000001",
+  "nome": "avanade",
+  "email": "testse@test",
+  "cep": "01310930",
+  "rg": "",
+  "dataNascimento": null,
+  "empresas": [],
+  "createdAt": {
+    "$date": "2025-04-17T07:48:52.121Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T08:32:47.155Z"
+  },
+  "__v": 0
+}]

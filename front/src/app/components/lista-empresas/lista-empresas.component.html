@@ -1,0 +1,31 @@
+<app-cadastro-empresa></app-cadastro-empresa>
+
+<hr />
+
+<h3>📋 Lista de Empresas</h3>
+
+<ul *ngIf="empresas.length > 0; else vazio">
+  <li *ngFor="let e of empresas">
+    <strong>{{ e.nomeFantasia }}</strong><br>
+    CNPJ: {{ e.cnpj }}<br>
+    CEP: {{ e.cep }}<br><br>
+
+    <button (click)="editar(e)">✏️ Editar</button>
+    <button (click)="deletar(e._id)">❌ Excluir</button>
+
+    <div *ngIf="empresaEditando?._id === e._id">
+      <h4>✏️ Editar Empresa</h4>
+      <input [(ngModel)]="empresaEditando.nomeFantasia" placeholder="Nome Fantasia" />
+      <input [(ngModel)]="empresaEditando.cnpj" placeholder="CNPJ" />
+      <input [(ngModel)]="empresaEditando.cep" placeholder="CEP" />
+      <button (click)="atualizar()">💾 Salvar</button>
+      <button (click)="cancelarEdicao()">Cancelar</button>
+    </div>
+
+    <hr>
+  </li>
+</ul>
+
+<ng-template #vazio>
+  <p>Nenhuma empresa cadastrada.</p>
+</ng-template>

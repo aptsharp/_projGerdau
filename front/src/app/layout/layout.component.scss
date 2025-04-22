@@ -1,0 +1,55 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e1e1e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil {
+  text-align: center;
+  margin-bottom: 30px;
+
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s;
+
+    &:hover {
+      background: #333;
+    }
+
+    &.ativo {
+      background: #007bff;
+      color: white;
+    }
+  }
+}
+
+.conteudo {
+  flex: 1;
+  padding: 40px;
+  background: #e6eef4;
+}
