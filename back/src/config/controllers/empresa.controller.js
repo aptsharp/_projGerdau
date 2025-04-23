@@ -3,7 +3,6 @@ const Fornecedor = require('../models/fornecedor.model');
 const { buscarCep } = require('../services/cep.service');
 
 
-// 📌 Criar nova empresa
 const criarEmpresa = async (req, res) => {
   try {
     const empresaExistente = await Empresa.findOne({ cnpj: req.body.cnpj });
@@ -24,7 +23,6 @@ const criarEmpresa = async (req, res) => {
 };
 
 
-// 📌 Listar todas as empresas (sem paginação)
 const listarEmpresas = async (req, res) => {
   try {
     const empresas = await Empresa.find().populate('fornecedores');
@@ -35,7 +33,6 @@ const listarEmpresas = async (req, res) => {
 };
 
 
-// 📌 Listar empresas com paginação e ordenação alfabética
 const listarEmpresasPaginado = async (req, res) => {
   try {
     const { page = 1, limit = 10 } = req.query;
@@ -60,7 +57,6 @@ const listarEmpresasPaginado = async (req, res) => {
 };
 
 
-// 📌 Buscar empresa por ID
 const buscarEmpresaPorId = async (req, res) => {
   try {
     const empresa = await Empresa.findById(req.params.id).populate('fornecedores');
@@ -74,7 +70,6 @@ const buscarEmpresaPorId = async (req, res) => {
 };
 
 
-// 📌 Atualizar empresa
 const atualizarEmpresa = async (req, res) => {
   try {
     const empresa = await Empresa.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -88,7 +83,6 @@ const atualizarEmpresa = async (req, res) => {
 };
 
 
-// 📌 Deletar empresa
 const deletarEmpresa = async (req, res) => {
   try {
     const empresa = await Empresa.findByIdAndDelete(req.params.id);
@@ -102,7 +96,6 @@ const deletarEmpresa = async (req, res) => {
 };
 
 
-// 📌 Vincular fornecedor (por CNPJ e CPF/CNPJ)
 const vincularFornecedor = async (req, res) => {
   const { cnpjEmpresa, cnpjCpfFornecedor } = req.body;
 
