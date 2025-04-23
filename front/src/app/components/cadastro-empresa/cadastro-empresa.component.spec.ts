@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CadastroEmpresaComponent } from './cadastro-empresa.component';
 
 describe('CadastroEmpresaComponent', () => {
@@ -9,15 +8,14 @@ describe('CadastroEmpresaComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [CadastroEmpresaComponent]
-    })
-    .compileComponents();
+    }).compileComponents();
 
     fixture = TestBed.createComponent(CadastroEmpresaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create the component', () => {
     expect(component).toBeTruthy();
   });
 });
