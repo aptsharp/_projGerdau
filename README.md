@@ -95,6 +95,18 @@ Abra o terminal dentro da pasta /front e execute:
 ng serve
 ```
 
+4. Testes unitarios no front
+Para executar os testes unitarios basta abrir um terminal e executar o comando.
+
+```bash
+npm run test:coverage
+```
+esse comando pode ser encontrado em nosso arquivo "package.json", na raiz do projeto.
+apos executado vamos encontrar algo assim, caso todos os testes estejam certos
+
+![image](https://github.com/user-attachments/assets/834f4298-9335-4718-8e01-784b47c29ba7)
+
+
 ## Back-end node Setup
 
 Para criar o back-end com NodeJS, abra um terminal na pasta back/ e execute:
@@ -154,6 +166,13 @@ npm run test:coverage
 ```
 Para ver toda a cobertura de testes vamos usar um extenção de vscode chamada "Live Server", vamos navegar ate a pasta "coverage > lcov-report > clicar com o botão direito do mouse no arquivo index.html e escolher a opção "Open with Live Server".
 
+Se todos os testes estiverem certos vamos ver algo assim: 
+
+![image](https://github.com/user-attachments/assets/199ec66a-5d4e-4f8b-8660-4c7f76fcf69b)
+
+
+
+
 
 
 ## Banco de dados - MongoDB
@@ -178,3 +197,8 @@ Durante a instalação, marque a opção de instalar o MongoDB Compass, que é a
 para mais detalhes de como configurar o banco de dados no contexto de cada projeto, a recomendação é ver. 
 https://www.youtube.com/watch?v=vbVr1rsPHCU&list=PLfvOpw8k80WpKTtloa7fMbfPWL7D6X5cC&index=3
 
+>esse projeto foi um testes tecnico, qualquer duvida entrar em contato! 
+
+``` Enjoy!®️ ```
+
+<img src="https://github.com/user-attachments/assets/ac014aa2-ac36-4477-b359-9a4f1924a1da" width="500">
